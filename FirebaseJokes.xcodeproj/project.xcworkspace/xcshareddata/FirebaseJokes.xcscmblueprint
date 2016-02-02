@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F38CD0903224414D06B016C0F4119D0928F95BD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F38CD0903224414D06B016C0F4119D0928F95BD8" : 0,
+    "A2C77036B51A3EFE5694BF4601E5C52878A5C93E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "777E8294-96CE-49A4-BD98-ED1758F45BDE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F38CD0903224414D06B016C0F4119D0928F95BD8" : "FirebaseJokesStarter\/",
+    "A2C77036B51A3EFE5694BF4601E5C52878A5C93E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FirebaseJokes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FirebaseJokes.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/graceylucas\/ParseSignUpLogin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A2C77036B51A3EFE5694BF4601E5C52878A5C93E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/12thtone\/FirebaseJokesStarter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F38CD0903224414D06B016C0F4119D0928F95BD8"
+    }
+  ]
+}
