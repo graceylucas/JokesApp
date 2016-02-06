@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F38CD0903224414D06B016C0F4119D0928F95BD8",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A16ADF839CECC1908F7B75D82537B53F92C704A7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "F38CD0903224414D06B016C0F4119D0928F95BD8" : 0,
+    "A16ADF839CECC1908F7B75D82537B53F92C704A7" : 0,
     "A2C77036B51A3EFE5694BF4601E5C52878A5C93E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "777E8294-96CE-49A4-BD98-ED1758F45BDE",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "F38CD0903224414D06B016C0F4119D0928F95BD8" : "FirebaseJokesStarter\/",
+    "A16ADF839CECC1908F7B75D82537B53F92C704A7" : "FirebaseJokesStarter\/",
     "A2C77036B51A3EFE5694BF4601E5C52878A5C93E" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "FirebaseJokes",
@@ -17,14 +17,14 @@
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FirebaseJokes.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/12thtone\/FirebaseJokesStarter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A16ADF839CECC1908F7B75D82537B53F92C704A7"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/graceylucas\/ParseSignUpLogin.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A2C77036B51A3EFE5694BF4601E5C52878A5C93E"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/12thtone\/FirebaseJokesStarter.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F38CD0903224414D06B016C0F4119D0928F95BD8"
     }
   ]
 }
