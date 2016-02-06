@@ -89,7 +89,7 @@ class CreateAccountViewController: UIViewController {
                 }
     
     
-    // Function that prompts user if signup in didn't work
+    // Function that sends a prompt if user signup in didn't work
     func signupErrorAlert(title: String, message: String){
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)

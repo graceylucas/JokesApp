@@ -42,6 +42,11 @@ class DataService {
     }
     
     
+    
+    // MARK: Function
+    
+    
+    // Creates a new user in Firebase
     func createNewAccount(uid: String, user: Dictionary <String, String>) {
 
         USER_REF.childByAppendingPath(uid).setValue(user)
