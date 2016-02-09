@@ -40,7 +40,38 @@ class AddJokeViewController: UIViewController {
         
     }
     
+    
+    // When saveJoke() is called, newJoke dictionary is created using the text from the jokeField, 0 for the current number of votes, and the current user’s username as the author. These values are assigned to their respective ids and sent over to createNewJoke() in DataService for saving.
+    
+    
     @IBAction func saveJoke(sender: AnyObject) {
+        
+        let jokeText = jokeField.text
+        
+        
+        if jokeText != "" {
+            
+            
+            // Build the new Joke.
+            // AnyObject is needed because of the votes of type Int.
+            
+            let newJoke: Dictionary<String, AnyObject> = [
+            
+                "jokeText": jokeText!,
+                "votes": 0,
+                "author": currentUsername
+            ]
+            
+            // Send it over to DataService
+            
+            DataService.dataService.createNewJoke(newJoke)
+            
+            if let navController = self.navigationController {
+                navController.popViewControllerAnimated(true)
+            }
+
+        }
+        
         
     }
     
