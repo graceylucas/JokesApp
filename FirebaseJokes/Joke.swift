@@ -65,5 +65,21 @@ class Joke {
         
         self._jokeRef = DataService.dataService.JOKE_REF.childByAppendingPath(self._jokeKey)
     }
+    
+    // Add or Subtract a Vote from the Joke.
+    
+    func addSubtractVote(addVote: Bool) {
+        
+        if addVote {
+            _jokeVotes = _jokeVotes + 1
+        } else {
+            _jokeVotes = _jokeVotes - 1
+        }
+        
+        // Save the new vote total.
+        
+        _jokeRef.childByAppendingPath("votes").setValue(_jokeVotes)
+        
+    }
 }
     

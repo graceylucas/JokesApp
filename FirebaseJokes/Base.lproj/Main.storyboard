@@ -97,7 +97,7 @@
         <scene sceneID="ca5-Za-9IO">
             <objects>
                 <tableViewController id="DON-tw-Z6i" customClass="JokesFeedTableViewController" customModule="FirebaseJokes" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="201" sectionHeaderHeight="28" sectionFooterHeight="28" id="nEk-Uj-viS">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="201" sectionHeaderHeight="28" sectionFooterHeight="28" id="nEk-Uj-viS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -358,6 +358,6 @@
         <image name="thumb-up" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="k7u-lM-tJi"/>
+        <segue reference="jc8-dV-5G5"/>
     </inferredMetricsTieBreakers>
 </document>

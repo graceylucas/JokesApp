@@ -77,5 +77,25 @@ class AddJokeViewController: UIViewController {
     
     @IBAction func logout(sender: AnyObject) {
         
+        
+        // Use Firebase function unauth() to log out user
+        
+        DataService.dataService.CURRENT_USER_REF.unauth()
+        
+        
+        // Remove the user's uid from storage.
+        
+        NSUserDefaults.standardUserDefaults().setURL(nil, forKey: "uid")
+        
+        let logiViewController = self.storyboard!.instantiateViewControllerWithIdentifier("Login")
+        UIApplication.sharedApplication().keyWindow?.rootViewController = logiViewController
     }
 }
+
+
+
+
+
+
+
+
