@@ -276,12 +276,12 @@
                         <outlet property="emailField" destination="WAS-yt-eCo" id="nH6-3x-87A"/>
                         <outlet property="passwordField" destination="ld5-N5-c04" id="djd-qH-fv2"/>
                         <outlet property="usernameField" destination="E4t-M9-5xE" id="P3X-tm-tyR"/>
-                        <segue destination="0Km-CT-AMV" kind="show" identifier="NewUserLoggedIn" id="k7u-lM-tJi"/>
+                        <segue destination="0Km-CT-AMV" kind="show" identifier="NewUserLoggedIn" id="UbG-m0-9Zv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dWw-e9-f2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560" y="1231"/>
+            <point key="canvasLocation" x="560" y="1238"/>
         </scene>
         <!--Add Joke-->
         <scene sceneID="EVB-vJ-RJz">
@@ -355,9 +355,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="thumb-up" width="30" height="30"/>
+        <image name="thumb-up" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jc8-dV-5G5"/>
+        <segue reference="UbG-m0-9Zv"/>
     </inferredMetricsTieBreakers>
 </document>
