@@ -72,7 +72,7 @@ class CreateAccountViewController: UIViewController {
                         
                         // Allow user to enter the app now that they have a profile and are logged in
                         
-                        self.performSegueWithIdentifier("New user is logged in", sender: nil)
+                        self.performSegueWithIdentifier("NewUserLoggedIn", sender: nil)
                     }
                 })
                 
