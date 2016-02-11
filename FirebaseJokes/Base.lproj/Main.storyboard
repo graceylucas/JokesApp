@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="30" id="mWI-oj-VW9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="chS-A8-c4g">
                                 <rect key="frame" x="20" y="121" width="560" height="30"/>
@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="height" constant="30" id="OsQ-NM-OL7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jokes Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpe-DB-9QO">
                                 <rect key="frame" x="20" y="46" width="560" height="29"/>
@@ -202,7 +202,7 @@
                                     <constraint firstAttribute="height" constant="30" id="p76-Wn-H9e"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ld5-N5-c04">
                                 <rect key="frame" x="20" y="159" width="560" height="30"/>
@@ -210,7 +210,7 @@
                                     <constraint firstAttribute="height" constant="30" id="Vbs-lQ-yZk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewY-rQ-aXQ">
                                 <rect key="frame" x="103" y="235" width="394" height="30"/>
@@ -247,7 +247,7 @@
                                     <constraint firstAttribute="height" constant="30" id="L2d-za-wCk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -358,6 +358,6 @@
         <image name="thumb-up" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UbG-m0-9Zv"/>
+        <segue reference="jc8-dV-5G5"/>
     </inferredMetricsTieBreakers>
 </document>
