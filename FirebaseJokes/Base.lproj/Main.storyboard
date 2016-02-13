@@ -173,6 +173,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Joke Feed" id="vfA-tl-KQT">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="WU1-2c-ggx">
+                            <connections>
+                                <action selector="logoutButtonPressed:" destination="DON-tw-Z6i" id="qGj-MB-BmR"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="Sjc-T4-4ax">
                             <connections>
                                 <segue destination="ZUw-69-RsN" kind="show" id="EIA-Bb-odg"/>
@@ -324,9 +329,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="x6X-Jq-YoQ" secondAttribute="trailing" constant="83" id="vlo-aB-VFG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Add Joke" id="JZp-fy-jGY">
-                        <barButtonItem key="rightBarButtonItem" title="Logout" id="KsH-VP-G1V"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Add Joke" id="JZp-fy-jGY"/>
                     <connections>
                         <outlet property="jokeField" destination="Lsg-yZ-RiH" id="JW3-pq-xbb"/>
                     </connections>

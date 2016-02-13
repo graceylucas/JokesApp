@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
         
         if NSUserDefaults.standardUserDefaults().valueForKey("uid") != nil && DataService.dataService.CURRENT_USER_REF.authData != nil {
             
-            self.performSegueWithIdentifier("Currentlyloggedin", sender: nil)
+            self.performSegueWithIdentifier("CurrentlyLoggedIn", sender: nil)
         }
         
         
@@ -58,7 +58,7 @@ class LoginViewController: UIViewController {
                     NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: "uid")
                     
                     // Enters the app
-                    self.performSegueWithIdentifier("Currentlyloggedin", sender: nil)
+                    self.performSegueWithIdentifier("CurrentlyLoggedIn", sender: nil)
                 }
                 
             })

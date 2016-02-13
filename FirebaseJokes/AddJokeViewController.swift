@@ -26,7 +26,7 @@ class AddJokeViewController: UIViewController {
         DataService.dataService.CURRENT_USER_REF.observeEventType(FEventType.Value , withBlock: {  (snapshot) -> Void in
             let currentUser = snapshot.value.objectForKey("username") as! String
             
-            print("Username: \(currentUser)")
+            print("username: \(currentUser)")
             self.currentUsername = currentUser
             
         }) { error in

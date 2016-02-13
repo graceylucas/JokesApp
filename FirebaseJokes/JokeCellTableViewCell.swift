@@ -57,47 +57,46 @@ class JokeCellTableViewCell: UITableViewCell {
             if let thumbsUpDown = snapshot.value as? NSNull {
                 print("thumbsUpDown")
                 
-                self.thumbVoteImage.image = UIImage(named: "thumb-down")
+                self.thumbVoteImage.image = UIImage(named: "thumb-up")
                 
             } else {
                 
-                self.thumbVoteImage.image = UIImage(named: "thumb-up")
+                self.thumbVoteImage.image = UIImage(named: "thumb-down")
             }
             
             
         })
+    }
+    
+    func voteTapped(sender: UIGestureRecognizer) {
         
-        
-        func voteTapped(sender: UIGestureRecognizer) {
-            
-            voteRef.observeSingleEventOfType(.Value, withBlock: { snapshot in
-                if let thumbsUpDown = snapshot.value as? NSNull {
-                    print(thumbsUpDown)
-                    self.thumbVoteImage.image = UIImage(named: "thumb-down")
-                    
-                    // addSubtractVote(), in Joke.swift, handles the vote.
-                    
-                    self.joke.addSubtractVote(true)
-                    
-                    // setValue saves the vote as true for the current user.
-                    // voteRef is a reference to the user's "votes" path.
-                    
-                    self.voteRef.setValue(true)
-                    
-                } else {
-                    
-                    self.thumbVoteImage.image = UIImage(named: "thumb-up")
-                    self.joke.addSubtractVote(false)
-                    self.voteRef.removeValue()
-                }
-            })
-            
-        }
+        voteRef.observeSingleEventOfType(.Value, withBlock: { snapshot in
+            if let thumbsUpDown = snapshot.value as? NSNull {
+                print(thumbsUpDown)
+                self.thumbVoteImage.image = UIImage(named: "thumb-down")
+                
+                // addSubtractVote(), in Joke.swift, handles the vote.
+                
+                self.joke.addSubtractVote(true)
+                
+                // setValue saves the vote as true for the current user.
+                // voteRef is a reference to the user's "votes" path.
+                
+                self.voteRef.setValue(true)
+                
+            } else {
+                
+                self.thumbVoteImage.image = UIImage(named: "thumb-up")
+                self.joke.addSubtractVote(false)
+                self.voteRef.removeValue()
+            }
+        })
         
     }
     
-    
 }
+
+
 
 
 

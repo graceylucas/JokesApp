@@ -14,6 +14,15 @@ class JokesFeedTableViewController: UITableViewController {
     
     var jokes = [Joke] ()
     
+    @IBAction func logoutButtonPressed(sender: AnyObject) {
+        
+        DataService.dataService.CURRENT_USER_REF.unauth()
+        
+        NSUserDefaults.standardUserDefaults().setValue(nil, forKey: "uid")
+        
+        let loginViewController = self.storyboard!.instantiateViewControllerWithIdentifier("Login")
+            UIApplication.sharedApplication().keyWindow?.rootViewController = loginViewController
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,12 +31,12 @@ class JokesFeedTableViewController: UITableViewController {
         
         DataService.dataService.JOKE_REF.observeEventType(.Value, withBlock: { snapshot in
             
-     
+            
             // The snapshot is a current look at our jokes data.
             
-        print(snapshot.value)
+            print(snapshot.value)
             
-        self.jokes = []
+            self.jokes = []
             
             if let snapshots = snapshot.children.allObjects as? [FDataSnapshot] {
                 
@@ -41,15 +50,15 @@ class JokesFeedTableViewController: UITableViewController {
                         
                         // Shows newest jokes first
                         self.jokes.insert(joke, atIndex: 0)
-
+                        
                         
                     }
                     
                 }
             }
-          
+            
             // updates the tableview
-             self.tableView.reloadData()
+            self.tableView.reloadData()
         })
         
         
@@ -83,7 +92,7 @@ class JokesFeedTableViewController: UITableViewController {
             // Send the single joke to configureCell() in JokeCellTableViewCell
             
             cell.configureCell(joke)
-        
+            
             return cell
             
         } else {
@@ -91,5 +100,7 @@ class JokesFeedTableViewController: UITableViewController {
             return JokeCellTableViewCell()
             
         }
-}
+    }
+    
+    
 }
